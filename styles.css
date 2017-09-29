@@ -29,7 +29,7 @@ header {
 	position: fixed;
 	width: 100%;
 	z-index: 1;
-	background-color: #17A589;
+	background: -webkit-linear-gradient(top, #148F77 , #117864, #148F77);
 }
 
 a {
@@ -58,7 +58,7 @@ a:hover {
 
 footer {
 	width: 100%;
-	background-color: green;
+	background: -webkit-linear-gradient(top, #148F77 , #117864, #148F77);
 	text-align: center;
 	font-family: 'Belleza', sans-serif;
 	position: absolute;
@@ -67,20 +67,25 @@ footer {
 /*Home Page Styling*/
 .main {
 	position: absolute;
-	top: 30%;
-	bottom: 33%;
+	top: 35%;
+	bottom: 30%;
 	left: 10%;
 	right: 10%;
-	font-size: 55px;
+	font-size: 60px;
 	text-align: center;
 	font-family: 'Philosopher', cursive;
 	letter-spacing: 3px;
 	font-weight: bold;
-	color: blue;
+	color: violet;
 }
 
 .image {
 	position: relative;
+	margin-top: 0;
+}
+
+img {
+	display: block;
 }
 
 .round-edge {
