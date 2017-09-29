@@ -15,25 +15,27 @@
 			<a href="index.html" class="pages">Home</a>
 		</div>
 	</header>
-  <section class="impact white">
-    <p>Want volunteer opportunities, updates on rainforests, or more information?<br>Leave us your information!</p>
-    <form id="form" action="http://example.com">
-     	<p id="sign-up">SIGN UP!</p>
-      First name:
+	<section class="white_space"></section>
+	<section class="image">
+		<img src="http://www.srl.caltech.edu/personnel/krubal/rainforest/Edit560s6/www/images/what/whrainf.gif" alt="Rainforest" title="Rainforest" style="width:100%">
+		<p class="white" id="sign-up">SIGN UP!</p>
+    <form class="white" id="form" action="http://example.com">
+    	<p>Want volunteer opportunities, updates on rainforests, or more information?<br>Leave us your information!</p>
+      <label for="first-name">First Name: </label>
       <input type="text" name="first-name" placeholder="First Name">
       <br>
-      Last name:
+      <label for="last-name">Last Name: </label>
       <input type="text" name="last-name" placeholder="Last Name">
       <br>
-      Email Address:
+      <label for="email-address">Email Address:</label>
       <input type="email" name="email-address" placeholder="example@gmail.com">
       <br><br>
-      What can you do to help?<br>
+      <label for="help">What can you do to help?</label><br>
       <input type="checkbox" name="help">Recycle more!<br>
       <input type="checkbox" name="help">Drive less and bike more!<br>
       <input type="checkbox" name="help">Volunteer in nearby locations!<br>
       <input type="checkbox" name="help">Spread the word!<br><br>
-      Gender<br>
+      <label for="gender">Gender</label><br>
       <input type="radio" name="gender">Male<br>
       <input type="radio" name="gender">Female<br>
       <input type="radio" name="gender">Other<br>
@@ -45,9 +47,11 @@
           <option value="sanjose">San Jose</option>
           <option value="sanfrancisco">San Francisco</option>
           <option value="fresno">Fresno</option>
-      <input type="submit" value="Submit">
+        </select>
+        <br><br>
+      <input id="submit" type="submit" name="Submit">
     </form>
-  </section>
+	</section>
  	<footer class="lime">
 		<p>Contact Shantelle for more information!<br>Email: st22242@pausd.us</p>
 	</footer>
