@@ -15,7 +15,7 @@ body {
 	padding: 5px 15px;
 	border: solid 0px;
 	font-size: 30px;
-	font-family: 'Belleza', sans-serif;
+	font-family: 'Belleza', cursive;
 }
 
 .lime {
@@ -69,10 +69,10 @@ a {
 	right: 10%;
 	font-size: 7.5vw;
 	text-align: center;
-	font-family: 'Philosopher', cursive;
-	letter-spacing: 3px;
+	font-family: 'Asap', sans-serif;
+	letter-spacing: 2px;
 	font-weight: bold;
-	color: violet;
+	color: indigo;
 }
 
 .image {
@@ -146,11 +146,11 @@ img {
 	left: 20%;
 	font-size: 3.1vw;
 	text-align: center;
-	line-height: 30px;
+	line-height: 35px;
 }
 
 form {
-	text-shadow: -1px -1px #000000;
+	text-shadow: -1.5px -1.5px #000000;
 }
 
 #submit {
@@ -158,5 +158,5 @@ form {
 	font-weight: bold;
 	font-size: 3vw;
 	color: green;
-	background-color: lime;
+	background-color: lightblue;
 }
