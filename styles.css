@@ -1,3 +1,4 @@
+/*General Styling*/
 html {
 	background-color: lightblue;
 }
@@ -54,6 +55,16 @@ a:hover {
 	background-color: white;
 }
 
+
+footer {
+	width: 100%;
+	background-color: green;
+	text-align: center;
+	font-family: 'Belleza', sans-serif;
+	position: absolute;
+}
+
+/*Home Page Styling*/
 .main {
 	position: absolute;
 	top: 30%;
@@ -87,10 +98,8 @@ a:hover {
 	border-radius: 50px;
 }
 
-footer {
-	width: 100%;
-	background-color: green;
-	text-align: center;
-	font-family: 'Belleza', sans-serif;
-	position: absolute;
+.rainforest-facts {
+	font-family: 'Philosopher', sans-serif;
+	line-height: 40px;
+	font-size: 20px;
 }
