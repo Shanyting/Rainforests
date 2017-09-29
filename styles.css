@@ -75,8 +75,6 @@ a {
 	color: violet;
 }
 
-
-
 .image {
 	position: relative;
 	margin-top: 0;
@@ -91,9 +89,10 @@ img {
 }
 
 .round-edge {
-	background: rgba(120, 120, 220, 0.5);
 	position: absolute;
 	border: solid white;
+	border-radius: 50px;
+	background: rgba(120, 120, 220, 0.5);
 	padding: 2%;
 	top: 15%;
 	left: 5%;
@@ -102,7 +101,7 @@ img {
 	text-align: center;
 	font-size: 2.6vw;
 	font-family: papyrus, cursive;
-	border-radius: 50px;
+
 }
 
 .right {
@@ -120,7 +119,7 @@ img {
 /*Rainforest Facts styling*/
 .rainforest-facts {
 	position: absolute;
-	top: 8%;
+	top: 10%;
 	font-family: 'Philosopher', sans-serif;
 	line-height: 40px;
 	font-size: 20px;
@@ -147,6 +146,7 @@ img {
 	left: 20%;
 	font-size: 3.1vw;
 	text-align: center;
+	line-height: 30px;
 }
 
 form {
@@ -156,7 +156,7 @@ form {
 #submit {
 	font-family: 'Papyrus', cursive;
 	font-weight: bold;
-	font-size: 2.5vw;
+	font-size: 3vw;
 	color: green;
 	background-color: lime;
 }
