@@ -57,6 +57,8 @@ a {
 	background: -webkit-linear-gradient(top, #148F77 , #117864, #148F77);
 	text-align: center;
 	font-family: 'Belleza', sans-serif;
+	color: lime;
+	font-size: 20px;
 	position: absolute;
 }
 
