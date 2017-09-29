@@ -95,13 +95,25 @@ img {
 	position: absolute;
 	border: solid white;
 	padding: 2%;
-	top: 10%;
+	top: 15%;
 	left: 5%;
-	height: 60%;
+	height: 50%;
 	width: 30%;
 	text-align: center;
 	font-size: 2.6vw;
 	font-family: papyrus, cursive;
+	border-radius: 50px;
+}
+
+.right {
+	background: rgba(120, 120, 220, 0.5);
+	position: absolute;
+	border: solid white;
+	padding: 5%;
+	text-align: center;
+	left: 1%;
+	width: 25%;
+	font-size: 2.6vw;
 	border-radius: 50px;
 }
 
