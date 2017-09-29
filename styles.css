@@ -15,6 +15,7 @@ body {
 	font-size: 30px;
 	font-family: 'Belleza', sans-serif;
 }
+
 .lime {
 	color: lime;
 }
@@ -53,18 +54,32 @@ a:hover {
 	background-color: white;
 }
 
+.main {
+	position: absolute;
+	top: 30%;
+	bottom: 33%;
+	left: 10%;
+	right: 10%;
+	font-size: 55px;
+	text-align: center;
+	font-family: 'Philosopher', cursive;
+	letter-spacing: 3px;
+	font-weight: bold;
+	color: blue;
+}
+
 .image {
 	position: relative;
 }
 
-.circle {
+.round-edge {
 	background: rgba(120, 120, 220, 0.5);
 	position: absolute;
 	border: solid white;
-	padding: 3%;
+	padding: 2%;
 	top: 2%;
 	left: 5%;
-	height: 70%;
+	height: 60%;
 	width: 30%;
 	text-align: center;
 	font-size: 2.6vw;
