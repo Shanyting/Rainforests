@@ -1,4 +1,9 @@
 /*General Styling*/
+
+html {
+	background-color: #B3FFF0;
+}
+
 body {
 	margin: 0px;
 	padding: 0px;
@@ -47,7 +52,7 @@ a {
 	background-color: white;
 }
 
-footer {
+#footer {
 	width: 100%;
 	background: -webkit-linear-gradient(top, #148F77 , #117864, #148F77);
 	text-align: center;
@@ -69,6 +74,8 @@ footer {
 	font-weight: bold;
 	color: violet;
 }
+
+
 
 .image {
 	position: relative;
@@ -117,7 +124,6 @@ img {
 	font-family: 'Papyrus', cursive;
 	text-decoration: underline;
 	font-weight: bold;
-
 	transform: translate(-50%, -50%);
 }
 
