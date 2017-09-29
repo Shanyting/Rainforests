@@ -111,11 +111,24 @@ img {
 }
 
 /*Make An Impact styling*/
+#sign-up {
+	color: green;
+	text-shadow: -2px -2px lightgreen;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: underline;
+}
 
 #form {
 	font-size: 20px;
 	font-family: 'Philosopher', cursive;
 	line-height: 30px;
+	top: 33%;
 	left: 20%;
 	text-align: center;
+	background-image: url("https://skitterphoto.com/photos/skitterphoto-463-default.jpg")
+}
+
+form {
+	text-shadow: -1px -1px #000000;
 }
