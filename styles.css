@@ -18,6 +18,10 @@ body {
 	font-family: 'Belleza', cursive;
 }
 
+.philosopher {
+	font-family: 'Philosopher', cursive;
+}
+
 .lime {
 	color: lime;
 }
@@ -108,7 +112,7 @@ img {
 .info-and-vids {
 	color: green;
 	margin: 15px 50px;
-	font-size: 2.3vw;
+	font-size: 2.1vw;
 }
 
 #column1, #column2 {
@@ -133,7 +137,6 @@ p>a:hover {
 .rainforest-facts {
 	position: absolute;
 	top: 10%;
-	font-family: 'Philosopher', sans-serif;
 	line-height: 40px;
 	font-size: 20px;
 }
@@ -154,7 +157,6 @@ p>a:hover {
 
 #form {
 	position: absolute;
-	font-family: 'Philosopher', cursive;
 	top: 17%;
 	width: 80%;
 	left: 10%;
@@ -185,7 +187,6 @@ input[type=password] {
 
 select {
 	font-size: 1.8vw;
-	font-family: "Philosopher", cursive
 }
 
 #submit {
